@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In - My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-light">
+    <!-- Navigation Header -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><strong>My Portfolio</strong></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="signin.html">Sign In</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="signup.html">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card shadow-lg">
+                    <div class="card-body p-5">
+                        <h2 class="card-title text-center mb-4">Sign In</h2>
+                        <p class="text-center text-muted mb-4">Welcome back! Please sign in to your account.</p>
+
+                        <form>
+                            <div class="mb-3">
+                                <label for="signinEmail" class="form-label">Email Address</label>
+                                <input type="email" class="form-control" id="signinEmail" name="email" placeholder="Enter your email" required>
+                                <small class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="signinPassword" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="signinPassword" name="password" placeholder="Enter your password" required>
+                            </div>
+
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="rememberMe" name="rememberMe">
+                                <label class="form-check-label" for="rememberMe">
+                                    Remember me
+                                </label>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary w-100 mb-3">Sign In</button>
+                        </form>
+
+                        <hr class="my-4">
+
+                        <div class="text-center mb-3">
+                            <p class="mb-0">Don't have an account? <a href="signup.html" class="text-decoration-none">Sign up here</a></p>
+                        </div>
+
+                        <div class="text-center">
+                            <a href="index.html" class="text-decoration-none">Back to Home</a>
+                        </div>
+                    </div>
+                </div>
+
+                <section class="mt-5">
+                    <h4>Why Sign In?</h4>
+                    <article>
+                        <p>By signing in to your account, you gain access to exclusive features and personalized content. You can view your profile, manage your preferences, track your projects, and stay updated with the latest news and updates from my portfolio.</p>
+                        <p>Your account provides a secure way to interact with my services and ensures that your information is protected. Sign in now to get started and experience all the benefits of having a personal account with us.</p>
+                    </article>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <ul class="list-unstyled">
+                        <li><a href="terms.html" class="text-white text-decoration-none">Terms and Conditions</a></li>
+                        <li><a href="privacy.html" class="text-white text-decoration-none">Privacy Policy</a></li>
+                        <li><a href="cookies.html" class="text-white text-decoration-none">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
